@@ -1,0 +1,509 @@
+/* BODY */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+/* HOME PAGE */
+
+.home-page{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("images/imagesbg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* ABOUT PAGE */
+
+.about-page{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("images/ss5.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* RESUME PAGE */
+
+.resume-page{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("images/ss6.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* SKILLS PAGE */
+
+.skills-page{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("images/ss7.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* COMMUNICATION PAGE */
+
+.communication-page{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("images/ss8.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* TEAMWORK PAGE */
+
+.teamwork-page{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("images/ss9.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,0.88);
+    padding: 12px 28px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    flex-wrap: wrap;
+}
+
+
+/* LEFT NAVBAR */
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+/* LOGO */
+
+.nav-logo{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* COMPANY NAME */
+
+.company-name{
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/* RIGHT NAVIGATION */
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+/* NAVIGATION BUTTONS */
+
+.nav-right a{
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(to right, #2c5364, #203a43);
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+}
+
+
+/* BUTTON HOVER */
+
+.nav-right a:hover{
+    background: linear-gradient(to right, #0f2027, #2c5364);
+    transform: translateY(-2px);
+}
+
+
+/* HERO SECTION */
+
+.hero-section{
+    text-align: center;
+    padding: 15px 20px;
+}
+
+
+/* MAIN HEADING */
+
+.hero-section h1{
+    color: rgb(240, 243, 239);
+    font-size: 45px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.7);
+}
+
+
+/* HERO TEXT */
+
+.hero-text{
+    color: rgb(202, 222, 117);
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.5;
+    text-shadow: 2px 2px 8px rgba(35, 159, 142, 0.7);
+}
+
+
+/* INTRO BOX */
+
+.intro-box,
+.content-box,
+.about-card,
+.resume-card,
+.skills-card{
+    width: 80%;
+    margin: 40px auto;
+    background-color: rgba(29, 127, 152, 0.92);
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+
+
+/* CARD HOVER */
+
+.content-box:hover,
+.about-card:hover,
+.resume-card:hover,
+.skills-card:hover{
+    transform: translateY(-5px);
+}
+
+
+/* HEADINGS */
+
+.intro-box h2,
+.content-box h2,
+.about-card h2,
+.resume-card h2,
+.skills-card h2{
+    color: #203a43;
+    font-size: 34px;
+}
+
+
+/* PARAGRAPHS */
+
+.intro-box p,
+.about-card p,
+.skills-card p{
+    font-size: 20px;
+    line-height: 1.8;
+    color: #222;
+}
+
+
+/* LISTS */
+
+.content-box ul,
+.content-box ol,
+.resume-card ul,
+.skills-card ul{
+    font-size: 20px;
+    line-height: 2;
+    color: #222;
+}
+
+
+/* IMAGE GALLERY */
+
+.image-gallery{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* GALLERY IMAGES */
+
+.image-gallery img{
+    width: 22%;
+    height: 190px;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+
+
+/* IMAGE HOVER */
+
+.image-gallery img:hover{
+    transform: scale(1.05);
+}
+
+
+/* TABLE SECTION */
+
+.table-section{
+    width: 90%;
+    margin: 50px auto;
+}
+
+
+/* TABLE SECTION HEADING */
+
+.table-section h2{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+
+/* TABLES */
+
+.resume-table,
+.skills-table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255,255,255,0.95);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+
+/* RESUME TABLE HEADER */
+
+.resume-table th{
+    background: linear-gradient(to right, #203a43, #2c5364);
+    color: white;
+    padding: 20px;
+    font-size: 22px;
+    text-align: left;
+}
+
+
+/* SKILLS TABLE HEADER */
+
+.skills-table th{
+    background: linear-gradient(to right, #14532d, #166534);
+    color: white;
+    padding: 20px;
+    font-size: 22px;
+    text-align: left;
+}
+
+
+/* TABLE DATA */
+
+.resume-table td,
+.skills-table td{
+    padding: 18px;
+    font-size: 19px;
+    color: #222;
+    border-bottom: 1px solid #ddd;
+    transition: 0.3s;
+}
+
+
+/* RESUME TABLE ROW */
+
+.resume-table tr:nth-child(even){
+    background-color: #f2f7ff;
+}
+
+
+/* SKILLS TABLE ROW */
+
+.skills-table tr:nth-child(even){
+    background-color: #f0fff4;
+}
+
+
+/* TABLE HOVER */
+
+.resume-table tr:hover td{
+    background-color: #dbefff;
+}
+
+
+.skills-table tr:hover td{
+    background-color: #dcfce7;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media(max-width: 900px){
+
+    .navbar{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .nav-right{
+        justify-content: center;
+    }
+
+    .nav-right a{
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+
+    .company-name{
+        font-size: 22px;
+    }
+
+    .image-gallery img{
+        width: 45%;
+    }
+}
+
+
+@media(max-width: 600px){
+
+    .nav-right{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-right a{
+        width: 80%;
+        text-align: center;
+    }
+
+    .hero-section h1{
+        font-size: 34px;
+    }
+
+    .hero-text{
+        font-size: 16px;
+    }
+
+    .image-gallery img{
+        width: 90%;
+    }
+
+    .intro-box,
+    .content-box,
+    .about-card,
+    .resume-card,
+    .skills-card{
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+
+/* PRINT */
+
+@media print{
+
+    .navbar{
+        display: none;
+    }
+
+    body{
+        background: white;
+        color: black;
+    }
+
+    img{
+        display: none;
+    }
+
+    .hero-section h1,
+    .hero-text{
+        color: black;
+        text-shadow: none;
+    }
+
+    footer{
+        background: white;
+        color: black;
+    }
+}
+/* NEWSLETTER BUTTON */
+
+.newsletter-button{
+
+    display: inline-block;
+    text-decoration: none;
+    background: linear-gradient(to right, #2c5364, #203a43);
+    color: white;
+    padding: 14px 28px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+
+
+.newsletter-button:hover{
+
+    background: linear-gradient(to right, #0f2027, #2c5364);
+    transform: translateY(-3px);
+
+}
